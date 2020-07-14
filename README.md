@@ -55,6 +55,6 @@ Kerry Smith
 <kerrysfs@gmail.com>
 
 
-![password gen screenshot](./assets/image/pwgenscreen1.png)
+![password gen screenshot](./Assets/image/pwgenscreen1.png)
 
 By: Kerry Smith 03-22-2020
