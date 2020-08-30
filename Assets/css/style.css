@@ -14,7 +14,10 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  /*background-color: #f9fbfd;*/
+  /*background-color: #465152;*/
+  background-image: url("https://images.wallpaperscraft.com/image/circuit_processor_chip_165681_1920x1080.jpg");
+  background-size: cover;
 }
 
 .wrapper {
@@ -23,23 +26,34 @@ body {
   padding-right: 20px;
 }
 
+.footText {
+  color: white;
+  font-size: 13px;
+}
+
 header {
   text-align: center;
   padding: 20px;
-  padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  margin-bottom: 40px;
+  color: ghostwhite;
+  font-size: 40px;
+  text-decoration: underline;
+  background-color: black;
+  opacity: 0.8;
+  box-shadow: rgba(0, 0, 0, 0.70) 0px 2px 8px 0px;
 }
 
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
   border-width: 1px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
+  box-shadow: rgba(0, 0, 0, 0.70) 0px 2px 8px 0px;
+  color: black;
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
+  opacity: 0.9;
 }
 
 .card-header::after {
@@ -76,8 +90,7 @@ header {
   border: none;
   background-color: hsl(360, 91%, 36%);
   border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
-    0px;
+
   color: hsl(0, 0%, 100%);
   display: inline-block;
   font-size: 22px;
@@ -127,6 +140,7 @@ button[disabled] {
 
   #password {
     font-size: 1rem;
+
   }
 }
 
